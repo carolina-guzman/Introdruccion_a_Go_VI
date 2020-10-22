@@ -29,7 +29,7 @@ func (i *Imagen) Mostrar() { //metodo de struct
 type Audio struct {
 	Titulo   string
 	Formato  string
-	Duracion float64
+	Duracion string
 }
 
 func (a *Audio) Mostrar() { //metodo de struct
